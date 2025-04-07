@@ -1,0 +1,14 @@
+{
+    "build": {
+      "env": {
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      }
+    },
+    "functions": {
+      "api/**.js": {
+        "memory": 256,
+        "maxDuration": 10
+      }
+    }
+  }
+  
